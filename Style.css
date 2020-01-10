@@ -43,10 +43,6 @@ li a:hover {
     background-position: top;
     background-attachment: fixed;
     background-size: 100% 100%;  
-    margin-left: 0;
-    margin-right: 0;
-    margin-bottom: 0;
-    margin-top: 0;
   }
    
     
@@ -67,16 +63,17 @@ li a:hover {
 }
 .textB{
     grid-column: 1/4;
-    background-color: rgba(205, 204, 209, 0.8);
+    background-color: rgba(133, 205, 233, 0.64);;
     text-align: center;
     width: 100%;
     background-size: 100% 100%; 
+    font-size:25px;
 }
 .RubrikB{
     grid-column: 1/4;
     text-align: center;
     font-size: 50px;
-    background-color: rgba(205, 204, 209, 0.8);
+    background-color: rgba(133, 205, 233, 0.64);
 }
 
 /**Filip**/
@@ -86,10 +83,18 @@ li a:hover {
     grid-template-columns: 1fr 1fr 1fr;
     grid-auto-rows: minmax(100px, auto);
     grid-gap: 1em;
-    background: rgb(68, 141, 71);
-  }
+    background-color:rgba(115, 159, 173, 0.89);
+  } 
+.wrapperC > section:nth-child(odd){
+       background:rgba(133, 205, 233, 0.64);
+       padding:1em;
+   }
 
-
+.wrapperC > section{
+   background: #bbd0ff;
+   padding:1em;
+   font-size: 23px;
+}
 .rubrikC{
   margin-top: 50px;
 }
@@ -117,7 +122,6 @@ h4{
 }
 
 .rubriksecC{
-  margin: 50px;
   grid-column: 1/4;
   text-align: center;
   font-size: 50px;
@@ -130,13 +134,7 @@ body{
   margin-top: 0;
   }
 
-  .wrapperC{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 1em;
-    background: rgb(68, 141, 71);
-  }
+  
 /** -------------------------------- Emad begin ----------------------------------------------**/
 .coolaspela{
    background-color:rgba(115, 159, 173, 0.89);
