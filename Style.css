@@ -1,17 +1,17 @@
 /**Oskar**/
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position:fixed;
-    top: 0;
-    width: 100%;
-    font-size: 30px;    
+ul{ /** Här börjar css ändringen på listan(navigationsbaren) **/
+    list-style-type: none; /**Att det ska inte vara pinkter på listan**/
+    margin: 0; /*Maarginalet på listan*/
+    padding: 0; /** Fyllnaden på kanterna av navbaren*/
+    overflow: hidden; /** Att om det sulle vara en skrollning så är den gömd*/
+    background-color: #333; /** Färgen på navbaren**/
+    position:fixed;/** Det om ska skrolla ner så ska den följa med innehållet **/
+    top: 0; 
+    width: 100%; /* att navbaren ska ta breddem på hela sidan*/
+    font-size: 30px; /* storlek på texten som är i navbaren*/
 } 
 li{
-    float: left;
+    float: left; 
    
 }
 
