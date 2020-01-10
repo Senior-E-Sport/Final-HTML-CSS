@@ -11,64 +11,63 @@ ul{ /** Här börjar css ändringen på listan(navigationsbaren) **/
     font-size: 30px; /* storlek på texten som är i navbaren*/
 } 
 li{
-    float: left; 
+    float: left;  /* Det här är för att navbarens knappar ska vara eftervarandra till vänster */
    
 }
 
 li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 20px 25px;
-    text-decoration: none;
+    display: block; /*det för att bli kvadrat eller block för rubriken  */
+    color: white; /*färgen på texten ska vara vit*/
+    text-align: center; /*placeringen av texten kvadraten*/
+    padding: 20px 25px; /*Hur mycket från kvadraten kanter */
+    text-decoration: none; /* Den här funktionen är för att ta bort under streck eftersom varje hemsida räknas som har länk*/
     
 }
 
-li a:hover {
-    background-color: #111;
+li a:hover { /*det när man har musen över blocken*/
+    background-color: #111; /*färgen när musen ärpå bblocken*/
 }
 
-.active {
+.active {/* När man är på hemsidan så lyser den hemsidan man är på*/
     background-color: #4CAF50;
 }
-.oversta{
-   grid-column: 1/4;
+.oversta{ /*En klass i html för rubriken*/
+   grid-column: 1/4; /*Det här funktionen för att dra över hela griden från koloumn 1 till 4 och då blir det som stor rubrik*/
    text-align: center;
-   letter-spacing: 2px;
-   font-size: 200px;
+   letter-spacing: 2px; /*Mellanrum på bokstäverna*/
+   font-size: 200px; /*Stoleken ¨på texten */
 }
 .BackgroundB {
-    background-image: url("Cyberpunk.jpg");   
-    background-repeat: no-repeat;    
-    background-position: top;
-    background-attachment: fixed;
-    background-size: 100% 100%;  
+    background-image: url("Cyberpunk.jpg"); /*Det är en länk på bild */   
+    background-position: top; /*Placeringen av bilden */
+    background-attachment: fixed; /*För att föla med när man skrollar*/
+    background-size: 100% 100%;  /*Bilden strolek ska vara över hela skärmen */
   }
    
-    
-}
+
 .styckeB{
     font-size: 20pt;
-    font-family: "georgia";
-    Color: black;
-    opacity: 2.0;
+    font-family: "georgia"; /*Textens stil*/
+    Color: black; 
+    opacity: 2.0; /*Hur mycket genomskinlig den ska vara*/
   
 }
 
 .wrapperB{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-columns: auto;
+    display: grid;  /* Att det ska vara rutor*/
+    grid-template-columns: 1fr 1fr; /*Hur den ska vara fördelad 1fr är en vanlig storlek i Grid*/
+    grid-auto-columns: auto; /*Hur Rutorna ska placeras*/
     
 }
 .textB{
     grid-column: 1/4;
-    background-color: rgba(133, 205, 233, 0.64);;
+    background-color: rgba(133, 205, 233, 0.64);
     text-align: center;
     width: 100%;
     background-size: 100% 100%; 
     font-size:25px;
 }
+
 .RubrikB{
     grid-column: 1/4;
     text-align: center;
@@ -81,8 +80,8 @@ li a:hover {
   .wrapperC{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-auto-rows: minmax(100px, auto);
-    grid-gap: 1em;
+    grid-auto-rows: minmax(100px, auto); /*Hur mycket rutan ska vara minsta och om det blir mer så anpassar rutan sig efter texten*/
+    grid-gap: 1em; /* Det mellan rummet mellan rutorna */
     background-color:rgba(115, 159, 173, 0.89);
   } 
 .wrapperC > section:nth-child(odd){
@@ -150,7 +149,7 @@ body{
   grid-auto-columns: auto;
   grid-gap: 1em;
   grid-auto-rows: minmax(50px, auto);
-  align-content:end    ;
+  
   
 }
    .wrappera > section:nth-child(odd){
