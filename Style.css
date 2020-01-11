@@ -84,14 +84,14 @@ li a:hover { /*det när man har musen över blocken*/
     grid-gap: 1em; /* Det mellan rummet mellan rutorna */
     background-color:rgba(115, 159, 173, 0.89);
   } 
-.wrapperC > section:nth-child(odd){
+.wrapperC > section:nth-child(odd){ /*Allt som ligger under wrapper ska varanan sektion har en egen färg eller zebra färg*/
        background:rgba(133, 205, 233, 0.64);
        padding:1em;
    }
 
-.wrapperC > section{
-   background: #bbd0ff;
-   padding:1em;
+.wrapperC > section{ /*Alla sektioner som ligger under wrapper ska ha de bestämda stilen*/
+   background: #bbd0ff;/*Bakgrunds färg*/
+   padding:1em; /*En av storlekar som används i Css*/
    font-size: 23px;
 }
 .rubrikC{
